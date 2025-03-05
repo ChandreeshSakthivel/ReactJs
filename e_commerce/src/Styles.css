@@ -1,0 +1,118 @@
+/* Attractive E-commerce Store Styles */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #dfe9f3);
+  }
+  
+  h1 {
+    color: #2d3748;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 20%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+  }
+  
+  button {
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  /* Move login button to the bottom */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Product Card Styles */
+  .product-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid #e2e8f0;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-color: #3b82f6;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  /* Utility classes */
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .bg-gray-100 {
+    background: linear-gradient(135deg, #f7fafc, #ebf4ff);
+  }
+  
+  .bg-green-100 {
+    background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+  }
+  
+  .bg-blue-500 {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+  }
+  
+  .bg-blue-600:hover {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  }
+  
+  .bg-red-500 {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+  }
+  
+  .bg-red-600:hover {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+  }
+  
+  
+  
